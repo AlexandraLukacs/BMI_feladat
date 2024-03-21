@@ -1,0 +1,36 @@
+BMI Feladat
+
+kiIr(szoveg:string):void
+beker(kerdes:string, also:int, felso:int):int
+bmiErtekeles(bmi:double):void
+bmiKiszamitas(t:int, m:int): double
+
+double bmiKiszamitas(int t, int m){
+  return t/Math.pow(m/100.0, 2);
+}
+
+KiIr("BMI kisz...")
+int m = beker("Testmag...: ")
+int t = beker("Testtom...: ")
+bmi = bmiKiszamitas(t, m)
+bmiErtekel(bmi)
+
+int m = beker("Testmagasság (cm) [100; 200]:", 100, 200)
+int m = beker("Testtömeg (kg) [40; 150]:", 40, 150)
+
+int beker(kerdes:string, also:int, felso:int){
+kiir(kerdes)
+int adat
+ciklus
+  be:adat
+ amíg adat < also
+	   > felso
+
+return adat
+}
+
+
+Pálcikás játék
+
+
+
